@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Novo Boletim RP</h2>
+<form method="post">
+<select name="corporacao" required>
+  <option value="PM">PM</option>
+  <option value="PC">PC</option>
+  <option value="BOMBEIROS">Bombeiros</option>
+  <option value="PRF">PRF</option>
+  <option value="PF">PF</option>
+</select><br><br>
+<input name="unidade" placeholder="Unidade" required><br><br>
+<input name="tipo" placeholder="Tipo de ocorrência" required><br><br>
+<input name="local" placeholder="Local" required><br><br>
+<textarea name="descricao" placeholder="Descrição" required></textarea><br><br>
+<button type="submit">Gerar PDF</button>
+</form>
+</body>
+</html>
